@@ -3,7 +3,7 @@ NAME
     Desktop::Notify
 
 VERSION
-    This document describes version 0.01 of
+    This document describes version 0.02 of
     Progress::Any::Output::DesktopNotify (from Perl distribution
     Progress-Any-Output-DesktopNotify), released on 2014-10-14.
 
@@ -33,6 +33,8 @@ SYNOPSIS
 DESCRIPTION
     This output sends progress updates to Desktop::Notify. Each task will
     get its own notification object.
+
+    Sample output (on Linux with XFCE):
 
 METHODS
   new(%args) => OBJ

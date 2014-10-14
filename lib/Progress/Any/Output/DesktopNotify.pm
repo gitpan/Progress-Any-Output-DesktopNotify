@@ -1,7 +1,7 @@
 package Progress::Any::Output::DesktopNotify;
 
 our $DATE = '2014-10-14'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -72,7 +72,7 @@ Progress::Any::Output::DesktopNotify - Output progress to Desktop::Notify
 
 =head1 VERSION
 
-This document describes version 0.01 of Progress::Any::Output::DesktopNotify (from Perl distribution Progress-Any-Output-DesktopNotify), released on 2014-10-14.
+This document describes version 0.02 of Progress::Any::Output::DesktopNotify (from Perl distribution Progress-Any-Output-DesktopNotify), released on 2014-10-14.
 
 =head1 SYNOPSIS
 
@@ -103,7 +103,11 @@ An example program:
 This output sends progress updates to Desktop::Notify. Each task will get its
 own notification object.
 
+Sample output (on Linux with XFCE):
+
 =for Pod::Coverage ^(update|cleanup)$
+
+=for HTML <img src="http://blogs.perl.org/users/perlancar/progany-dn-sample.jpg" />
 
 =head1 METHODS
 
